@@ -1,27 +1,28 @@
-# Project Title
+# 8-Bit Display
 
-Simple overview of use/purpose.
+A piece of code written by myself as my final project while working towards the PCAP Certification. 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This piece of code is designed to demonstrate my understanding of Python strings and use. 
 
-## Getting Started
+Instructions provided for the project: 
+
+Your task is to write a program which is able to simulate the work of a seven-display device, although you're going to use single LEDs instead of segments.
+
+Each digit is constructed from 13 LEDs (some lit, some dark, of course) – that's how we imagine it:
+
+  # ### ### # # ### ### ### ### ### ###
+  #   #   # # # #   #     # # # # # # # 
+  # ### ### ### ### ###   # ### ### # # 
+  # #     #   #   # # #   # # #   # # # 
+  # ### ###   # ### ###   # ### ### ###
+Note: the number 8 shows all the LED lights on.
+
+Your code has to display any non-negative integer number entered by the user.
+
+Tip: using a list containing patterns of all ten digits may be very helpful.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Written using Python 3.10
